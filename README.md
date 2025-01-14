@@ -32,7 +32,8 @@ Read more how to construct them [here](https://docs.godotengine.org/en/stable/tu
 
 ## node_3d: Node3D
 
-Physics need to know how 3D space is, so passing any `Node3D` will work.
+Physics need to know how 3D space is.  
+Passing any `Node3D` will work.
 
 ## collide_with_bodies and collide_with_areas
 
