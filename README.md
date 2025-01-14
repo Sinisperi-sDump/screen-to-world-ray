@@ -2,6 +2,21 @@
 
 > Shooting rays from Screen position to 3D World
 
+returns `Dictionary` that contains information about the collision.  
+For example:
+```gdscript
+{
+  "position": (6.267622, 0, -5.234176),
+  "normal": (0, 1, 0),
+  "face_index": -1,
+  "collider_id": 33470547287,
+  "collider": FloorPlane:<Area3D#33470547287>,
+  "shape": 0,
+  "rid": RID(4415226380288)
+}
+
+```
+
 ## screen_position: Vector2
 
 Start position for the ray on screen.  
